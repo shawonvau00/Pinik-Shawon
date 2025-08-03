@@ -7,7 +7,7 @@ module.exports.config = {
  credits: "Shaon",
  description: "Send a random sad video",
  commandCategory: "media",
- usages: "",
+ usages: "কাকে এড করবেন তাকে পটিয়ে ফ্রেন্ড রিকুয়েষ্ট পাঠিয়ে এড করে নিন🙈",
  cooldowns: 5
 };
 
