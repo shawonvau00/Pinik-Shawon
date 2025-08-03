@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "fbpost",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "PINIK SHAWON ☢️_𖣘 -𝐁𝐎𝐓😊",
 	description: "tweet",
 	commandCategory: "Edit-img",
 	usages: "phub [text]",
