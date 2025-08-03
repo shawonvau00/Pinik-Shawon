@@ -5,7 +5,7 @@ module.exports.config = {
     credits: "PINIK-SHAWON☢️_𖣘 -𝐁𝐎𝐓 ⚠️",
     description: "",
     commandCategory: "Admin",
-    usages: "out [id]",
+    usages: "out, Kick [id, Members]",
     cooldowns: 10,
 };
 
