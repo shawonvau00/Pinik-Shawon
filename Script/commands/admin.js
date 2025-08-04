@@ -7,7 +7,7 @@ module.exports.config = {
     name: "admin",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "PINIK SHAWON", //don't change my credit 
+    credits: "𝗣𝗜𝗡𝗜𝗞 𝗦𝗛𝗔𝗪𝗢𝗡", //don't change my credit 
     description: "Show Owner Info",
     commandCategory: "info",
     usages: "",
@@ -22,22 +22,14 @@ module.exports.run = async function({ api, event }) {
 ┏━━━━━━━━━━━━━━━━━━━━━┓
 ┃      🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟      
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 👤 𝐍𝐚𝐦𝐞      : PINIK SHAWON 🙋‍♂️
+┃ 👤 𝐍𝐚𝐦𝐞      : 𝗣𝗶𝗻𝗶𝗸 𝗦𝗵𝗮𝘄𝗼𝗻 🙋‍♂️
 ┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫    : 𝐌𝐚𝐥𝐞
-┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : SINGLE
-┃ 🎂 𝐀𝐠𝐞       : 21
+┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : 𝗦𝗶𝗻𝗴𝗹𝗲
+┃ 🎂 𝐀𝐠𝐞       :21
 ┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : 𝐈𝐬𝐥𝐚𝐦
-┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : BRAHMON-BARIA, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
+┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : 𝗕𝗿𝗮𝗵𝗺𝗼𝗻-𝗕𝗮𝗿𝗶𝗮, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/Shawon.Mallik.6t9
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
 ┗━━━━━━━━━━━━━━━━━━━━━┛
-        `,
-        attachment: fs.createReadStream(__dirname + "/cache/1.png")
-    }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"));
-  
-    return request(encodeURI(`https://graph.facebook.com/100000478146113/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`))
-        .pipe(fs.createWriteStream(__dirname + '/cache/1.png'))
-        .on('close', () => callback());
-};
